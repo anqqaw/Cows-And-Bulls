@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4237C75B287869A900DCF19C /* Cows_and_bullsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C75A287869A900DCF19C /* Cows_and_bullsApp.swift */; };
+		4237C75D287869A900DCF19C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C75C287869A900DCF19C /* ContentView.swift */; };
+		4237C75F287869B100DCF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4237C75E287869B100DCF19C /* Assets.xcassets */; };
+		4237C762287869B100DCF19C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4237C761287869B100DCF19C /* Preview Assets.xcassets */; };
+		4237C76C287869B100DCF19C /* Cows_and_bullsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C76B287869B100DCF19C /* Cows_and_bullsTests.swift */; };
+		4237C776287869B100DCF19C /* Cows_and_bullsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C775287869B100DCF19C /* Cows_and_bullsUITests.swift */; };
+		4237C778287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C777287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4237C768287869B100DCF19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4237C74F287869A900DCF19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4237C756287869A900DCF19C;
+			remoteInfo = "Cows-and-bulls";
+		};
+		4237C772287869B100DCF19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4237C74F287869A900DCF19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4237C756287869A900DCF19C;
+			remoteInfo = "Cows-and-bulls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4237C757287869A900DCF19C /* Cows-and-bulls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cows-and-bulls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237C75A287869A900DCF19C /* Cows_and_bullsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsApp.swift; sourceTree = "<group>"; };
+		4237C75C287869A900DCF19C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4237C75E287869B100DCF19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4237C761287869B100DCF19C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4237C767287869B100DCF19C /* Cows-and-bullsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cows-and-bullsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237C76B287869B100DCF19C /* Cows_and_bullsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsTests.swift; sourceTree = "<group>"; };
+		4237C771287869B100DCF19C /* Cows-and-bullsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cows-and-bullsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237C775287869B100DCF19C /* Cows_and_bullsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsUITests.swift; sourceTree = "<group>"; };
+		4237C777287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4237C754287869A900DCF19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C764287869B100DCF19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C76E287869B100DCF19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4237C74E287869A900DCF19C = {
+			isa = PBXGroup;
+			children = (
+				4237C759287869A900DCF19C /* Cows-and-bulls */,
+				4237C76A287869B100DCF19C /* Cows-and-bullsTests */,
+				4237C774287869B100DCF19C /* Cows-and-bullsUITests */,
+				4237C758287869A900DCF19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4237C758287869A900DCF19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4237C757287869A900DCF19C /* Cows-and-bulls.app */,
+				4237C767287869B100DCF19C /* Cows-and-bullsTests.xctest */,
+				4237C771287869B100DCF19C /* Cows-and-bullsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4237C759287869A900DCF19C /* Cows-and-bulls */ = {
+			isa = PBXGroup;
+			children = (
+				4237C75A287869A900DCF19C /* Cows_and_bullsApp.swift */,
+				4237C75C287869A900DCF19C /* ContentView.swift */,
+				4237C75E287869B100DCF19C /* Assets.xcassets */,
+				4237C760287869B100DCF19C /* Preview Content */,
+			);
+			path = "Cows-and-bulls";
+			sourceTree = "<group>";
+		};
+		4237C760287869B100DCF19C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4237C761287869B100DCF19C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4237C76A287869B100DCF19C /* Cows-and-bullsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4237C76B287869B100DCF19C /* Cows_and_bullsTests.swift */,
+			);
+			path = "Cows-and-bullsTests";
+			sourceTree = "<group>";
+		};
+		4237C774287869B100DCF19C /* Cows-and-bullsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4237C775287869B100DCF19C /* Cows_and_bullsUITests.swift */,
+				4237C777287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift */,
+			);
+			path = "Cows-and-bullsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4237C756287869A900DCF19C /* Cows-and-bulls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237C77B287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bulls" */;
+			buildPhases = (
+				4237C753287869A900DCF19C /* Sources */,
+				4237C754287869A900DCF19C /* Frameworks */,
+				4237C755287869A900DCF19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cows-and-bulls";
+			productName = "Cows-and-bulls";
+			productReference = 4237C757287869A900DCF19C /* Cows-and-bulls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4237C766287869B100DCF19C /* Cows-and-bullsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237C77E287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bullsTests" */;
+			buildPhases = (
+				4237C763287869B100DCF19C /* Sources */,
+				4237C764287869B100DCF19C /* Frameworks */,
+				4237C765287869B100DCF19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4237C769287869B100DCF19C /* PBXTargetDependency */,
+			);
+			name = "Cows-and-bullsTests";
+			productName = "Cows-and-bullsTests";
+			productReference = 4237C767287869B100DCF19C /* Cows-and-bullsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4237C770287869B100DCF19C /* Cows-and-bullsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237C781287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bullsUITests" */;
+			buildPhases = (
+				4237C76D287869B100DCF19C /* Sources */,
+				4237C76E287869B100DCF19C /* Frameworks */,
+				4237C76F287869B100DCF19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4237C773287869B100DCF19C /* PBXTargetDependency */,
+			);
+			name = "Cows-and-bullsUITests";
+			productName = "Cows-and-bullsUITests";
+			productReference = 4237C771287869B100DCF19C /* Cows-and-bullsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4237C74F287869A900DCF19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4237C756287869A900DCF19C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4237C766287869B100DCF19C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4237C756287869A900DCF19C;
+					};
+					4237C770287869B100DCF19C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4237C756287869A900DCF19C;
+					};
+				};
+			};
+			buildConfigurationList = 4237C752287869A900DCF19C /* Build configuration list for PBXProject "Cows-and-bulls" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4237C74E287869A900DCF19C;
+			productRefGroup = 4237C758287869A900DCF19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4237C756287869A900DCF19C /* Cows-and-bulls */,
+				4237C766287869B100DCF19C /* Cows-and-bullsTests */,
+				4237C770287869B100DCF19C /* Cows-and-bullsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4237C755287869A900DCF19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237C762287869B100DCF19C /* Preview Assets.xcassets in Resources */,
+				4237C75F287869B100DCF19C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C765287869B100DCF19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C76F287869B100DCF19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4237C753287869A900DCF19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237C75D287869A900DCF19C /* ContentView.swift in Sources */,
+				4237C75B287869A900DCF19C /* Cows_and_bullsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C763287869B100DCF19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237C76C287869B100DCF19C /* Cows_and_bullsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237C76D287869B100DCF19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237C776287869B100DCF19C /* Cows_and_bullsUITests.swift in Sources */,
+				4237C778287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4237C769287869B100DCF19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4237C756287869A900DCF19C /* Cows-and-bulls */;
+			targetProxy = 4237C768287869B100DCF19C /* PBXContainerItemProxy */;
+		};
+		4237C773287869B100DCF19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4237C756287869A900DCF19C /* Cows-and-bulls */;
+			targetProxy = 4237C772287869B100DCF19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4237C779287869B100DCF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4237C77A287869B100DCF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4237C77C287869B100DCF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cows-and-bulls/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bulls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4237C77D287869B100DCF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cows-and-bulls/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bulls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4237C77F287869B100DCF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bullsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cows-and-bulls.app/Cows-and-bulls";
+			};
+			name = Debug;
+		};
+		4237C780287869B100DCF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bullsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cows-and-bulls.app/Cows-and-bulls";
+			};
+			name = Release;
+		};
+		4237C782287869B100DCF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bullsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cows-and-bulls";
+			};
+			name = Debug;
+		};
+		4237C783287869B100DCF19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aarni.Cows-and-bullsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cows-and-bulls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4237C752287869A900DCF19C /* Build configuration list for PBXProject "Cows-and-bulls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237C779287869B100DCF19C /* Debug */,
+				4237C77A287869B100DCF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237C77B287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bulls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237C77C287869B100DCF19C /* Debug */,
+				4237C77D287869B100DCF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237C77E287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bullsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237C77F287869B100DCF19C /* Debug */,
+				4237C780287869B100DCF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237C781287869B100DCF19C /* Build configuration list for PBXNativeTarget "Cows-and-bullsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237C782287869B100DCF19C /* Debug */,
+				4237C783287869B100DCF19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4237C74F287869A900DCF19C /* Project object */;
+}
