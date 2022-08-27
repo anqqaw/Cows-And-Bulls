@@ -14,6 +14,7 @@
 		4237C76C287869B100DCF19C /* Cows_and_bullsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C76B287869B100DCF19C /* Cows_and_bullsTests.swift */; };
 		4237C776287869B100DCF19C /* Cows_and_bullsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C775287869B100DCF19C /* Cows_and_bullsUITests.swift */; };
 		4237C778287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237C777287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift */; };
+		42841E9328A90C47004B5089 /* SingleplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42841E9228A90C47004B5089 /* SingleplayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4237C771287869B100DCF19C /* Cows-and-bullsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cows-and-bullsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4237C775287869B100DCF19C /* Cows_and_bullsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsUITests.swift; sourceTree = "<group>"; };
 		4237C777287869B100DCF19C /* Cows_and_bullsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows_and_bullsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42841E9228A90C47004B5089 /* SingleplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleplayerView.swift; path = Views/SingleplayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4237C75A287869A900DCF19C /* Cows_and_bullsApp.swift */,
 				4237C75C287869A900DCF19C /* ContentView.swift */,
+				42841E9228A90C47004B5089 /* SingleplayerView.swift */,
 				4237C75E287869B100DCF19C /* Assets.xcassets */,
 				4237C760287869B100DCF19C /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4237C75D287869A900DCF19C /* ContentView.swift in Sources */,
+				42841E9328A90C47004B5089 /* SingleplayerView.swift in Sources */,
 				4237C75B287869A900DCF19C /* Cows_and_bullsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

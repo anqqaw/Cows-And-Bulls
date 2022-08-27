@@ -15,3 +15,7 @@ struct Cows_and_bullsApp: App {
         }
     }
 }
+
+extension StringProtocol  {
+    var digits: [Int] { compactMap(\.wholeNumberValue) }
+}
