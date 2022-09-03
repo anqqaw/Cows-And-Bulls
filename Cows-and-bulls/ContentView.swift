@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.openURL) var openURL
+    @State var showingSinglePlayerView = false
 
     // use tabview
     // use navigationlink
@@ -25,13 +26,17 @@ struct ContentView: View {
                     )
 
                 HStack() {
-                    Button(action: {()}) {
+                    Button(action: {
+                        self.showingSinglePlayerView.toggle()
+                    }) {
                         Text("Singleplayer")
                             .padding(10)
                             .foregroundColor(.black)
                             .background(Color.blue)
                             .cornerRadius(20)
 
+                    }.sheet(isPresented: $showingSinglePlayerView) {
+                        SingleplayerView()
                     }
 
                     Button(action: {()}) {
