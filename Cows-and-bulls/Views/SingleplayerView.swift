@@ -16,8 +16,16 @@ import SwiftUI
     just expect them to know and if they don't, let them check the help button
  */
 
+struct StoredResult : Identifiable {
+    let result: String
+    let id = UUID()
+}
+
 struct SingleplayerView: View {
     @State var input: String = ""
+    @State var output: String = ""
+    @State var results: [StoredResult] = []
+
     var guess = ""
     let randomNumber = generateRandomNumber()
 
@@ -35,7 +43,6 @@ struct SingleplayerView: View {
                 .cornerRadius(40)
                 .keyboardType(.decimalPad)
 
-            // Button(action: guess)
             Button(action: check) {
                 Text("Guess")
                     .foregroundColor(.black)
@@ -45,28 +52,37 @@ struct SingleplayerView: View {
                     .background(Color.blue)
                     .cornerRadius(20)
              }
-            /*
-           Text("\(guesses)")
-               .font(.title2)
-               .foregroundColor(.black)
-               .padding()
-             */
-
+             List(results) {
+                            Text($0.result)
+                            }
         }
     }
     
     func check() {
-        print(input)
-        
+
         let usersInput = input.digits
         if (checkUsersInput(usersInput: usersInput)) {
-            print("OK")
+
+            let cows = checkCowsAndBulls(usersInput: usersInput).0
+            let bulls = checkCowsAndBulls(usersInput: usersInput).1
+
+            let hint = "\(input)  |  \(cows) Cows, \(bulls) Bulls"
+
+            results.append(StoredResult(result: hint))
+
         } else {
-            print("Not ok")
+            let cows = checkCowsAndBulls(usersInput: usersInput).0
+            let bulls = checkCowsAndBulls(usersInput: usersInput).1
+
+            let hint = "\(input)  |  \(cows) Cows, \(bulls) Bulls"
+
+            results.append(StoredResult(result: hint))
+
         }
-        
+
         if checkCowsAndBulls(usersInput: usersInput).bulls == 4 {
-            print("WON")
+            output = "Game over!" // adds pop up to ask what to do (restart )
+            // print titled text "You won" and game over under it.
         }
     }
 
