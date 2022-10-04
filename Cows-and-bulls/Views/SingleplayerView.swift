@@ -6,15 +6,9 @@
 //
 
 import SwiftUI
+import Combine
 
-/*
- Instruction for the player
-    numbers are unique in the set of 4
-    numbers are between 1 and 9
-    letters can't be inserted
- OR
-    just expect them to know and if they don't, let them check the help button
- */
+
 
 struct StoredResult : Identifiable {
     let result: String
@@ -26,15 +20,13 @@ struct SingleplayerView: View {
     @State var output: String = ""
     @State var results: [StoredResult] = []
 
+    let guessLimit = 4
     var guess = ""
     let randomNumber = generateRandomNumber()
 
     var body: some View {
         VStack {
 
-            // USE TABVIEW OR CONSIDER ABT IT
-            // restart button
-            // use "input" for users input
             TextField("Enter your guess", text: $input, prompt: Text("Guess"))
                 .textFieldStyle(.roundedBorder)
                 .font(.callout)
@@ -42,6 +34,7 @@ struct SingleplayerView: View {
                 .frame(maxWidth: 200)
                 .cornerRadius(40)
                 .keyboardType(.decimalPad)
+                .onReceive(Just(input)) { _ in limitText(guessLimit) }
 
             Button(action: check) {
                 Text("Guess")
@@ -53,8 +46,15 @@ struct SingleplayerView: View {
                     .cornerRadius(20)
              }
              List(results) {
-                            Text($0.result)
-                            }
+                Text($0.result)
+            }
+            
+        }
+    }
+    
+    func limitText(_ upper: Int) {
+        if input.count > upper {
+            input = String(input.prefix(upper))
         }
     }
     
@@ -101,9 +101,6 @@ struct SingleplayerView: View {
         return numberSet
     }
 
-//    let usersInput = guess.digits
-    // let usersInput: [Int] = [1, 1, 6, 5] // no input if invalid
-
     func checkUsersInput(usersInput: [Int]) -> Bool {
         if (usersInput.count != 4) {
             return false
@@ -118,9 +115,6 @@ struct SingleplayerView: View {
         }
         return true
     }
-
-//    let randomNumber = generateRandomNumber()
-//    let check = checkSimilarity()
 
     func checkIfUseableNumber() -> Bool {
 //        if (!usersInput.isEmpty) && (!usersInput.contains(0)) && (!check) {
@@ -157,14 +151,6 @@ struct SingleplayerView: View {
             }
         }
         return (cows_count, bulls_count)
-    }
-    
-    func theCheck() { // This's just for no errors (Expected Declaration)
-//        let checkNumber : Bool = checkIfUseableNumber()
-//        if checkNumber == true {
-//            let cows = checkCowsAndBulls().0 // cows
-//            let bulls = checkCowsAndBulls().1 // bulls
-//        }
     }
 
 }
