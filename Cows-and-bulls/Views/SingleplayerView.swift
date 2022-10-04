@@ -84,6 +84,8 @@ struct SingleplayerView: View {
             output = "Game over!" // adds pop up to ask what to do (restart )
             // print titled text "You won" and game over under it.
         }
+        
+        input = ""
     }
 
     static func generateRandomNumber() -> [Int] {
