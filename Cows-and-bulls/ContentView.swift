@@ -11,9 +11,6 @@ struct ContentView: View {
     @Environment(\.openURL) var openURL
     @State var showingSinglePlayerView = false
 
-    // use tabview
-    // use navigationlink
-
     var body: some View {
 
         VStack(alignment: .center) {

@@ -19,6 +19,8 @@ struct SingleplayerView: View {
     @State var output: String = ""
     @State var results: [StoredResult] = []
     @State var buttonIsDisabled: Bool = true
+    @State var textIsDisabled: Bool = false
+    @State var showingWinView: Bool = false
 
     let guessLimit = 4
     var guess = ""
@@ -34,6 +36,7 @@ struct SingleplayerView: View {
                 .cornerRadius(40)
                 .keyboardType(.decimalPad)
                 .onReceive(Just(input)) { _ in limitText() }
+                .disabled(textIsDisabled)
 
             Button(action: check) {
                 Text("Guess")
@@ -45,16 +48,21 @@ struct SingleplayerView: View {
                     .cornerRadius(20)
 
              }.disabled(buttonIsDisabled)
+            //.sheet(isPresented: $showingWinView) {
+            //    WinView()
+            }
 
             List(results) {
                 Text($0.result)
             }
 
+            if (showingWinView) {
+                WinView()
+            }
+            
         }
-    }
 
-    func limitText() { // This funcgion can be proved
-        // if not number, then, don't add it to textfield
+    func limitText() {
 
         input = input.filter("0123456789".contains)
         
@@ -78,7 +86,6 @@ struct SingleplayerView: View {
         } else {
             buttonIsDisabled = true
         }
-
     }
 
     func clearInput() {
@@ -110,8 +117,14 @@ struct SingleplayerView: View {
         if checkCowsAndBulls(usersInput: usersInput).bulls == 4 {
             output = "Game over!"
             results.append(StoredResult(result: output))
-            // adds pop up to ask what to do (restart )
-            // print titled text "You won" and game over under it.
+
+            textIsDisabled = true
+            showingWinView = true
+
+            // open winView
+            // show text="You won!"
+            // show the list of numbers user guessed
+            // show a restart button to play again
         }
 
         clearInput()
@@ -148,16 +161,6 @@ struct SingleplayerView: View {
            }
         }
         return true
-    }
-
-    func checkIfUseableNumber() -> Bool {
-//        if (!usersInput.isEmpty) && (!usersInput.contains(0)) && (!check) {
-//            return true
-//        }
-//        else {
-//            return false
-//        }
-        return false
     }
 
     func checkCowsAndBulls(usersInput: [Int]) -> (cows: Int, bulls: Int) {
